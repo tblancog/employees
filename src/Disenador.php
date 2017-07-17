@@ -1,4 +1,6 @@
 <?php
+include_once('Empleado.php');
+
 class Disenador extends Empleado{
   private $tipo;
   public function setTipo($value){

@@ -1,4 +1,6 @@
 <?php
+include_once('Empleado.php');
+
 class Programador extends Empleado{
   private $lenguaje;
   public function setLenguaje($value){
